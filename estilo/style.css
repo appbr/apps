@@ -2,55 +2,50 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: Arial;
-}
-
-h1 {
-    margin: auto;
-    text-align: center;
-    font-size: 5vw;
-    padding-top: 1.2vw;
+  box-sizing: border-box;
 }
 
 header {
-  width: 99.5%;
-  height: 4vh;
-  border: 1px solid black;
-  position: absolute;
-  top: 0;
   background-color: green;
 }
 
-main {
-  
-  height: 80vh;
-  border: 1px solid black;
-  margin-top: 4.3%;
-  width: 80%;
-  margin: auto;
-  border-radius: 0px 0px 10px 10px;
-  background-color: skyblue;
+h1 {
+  font-size: min(7vw, 40px);
+  text-align: center;
 }
-
 img {
-  margin-top: 10%;
-  width: 10%;
-  height: 10vh%;
-  border-radius: 10px;
-  
+    width: min(15vw, 65px);
+    border-radius: 10vw;
+    margin-left:  1vw;
+    margin-top: 1vw;
 }
 
 footer {
-  width: 99.5%;
-  border: 1px solid black;
-  height: 2vh;
-  position: absolute;
-  bottom: 0;
   background-color: green;
-  text-align: center;
-  font-size: 3vw;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-body {
-  background-color: with;
+p {
+  text-align: center;
+}
+
+main {
+  background-color: skyblue;
+  width: min(70vw);
+  height: min(150vw, 550px);
+  margin: auto;
+  
+}
+
+p {
+  font-size: min(3.5vw, 15px);
+  text-align: center;
+}
+
+div.sep {
+  width: 100%;
+  height: min(7vw, 40px);
+  
 }
