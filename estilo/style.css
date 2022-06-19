@@ -1,0 +1,56 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 5vw;
+    padding-top: 1.2vw;
+}
+
+header {
+  width: 99.5%;
+  height: 4vh;
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  background-color: green;
+}
+
+main {
+  
+  height: 80vh;
+  border: 1px solid black;
+  margin-top: 4.3%;
+  width: 80%;
+  margin: auto;
+  border-radius: 0px 0px 10px 10px;
+  background-color: skyblue;
+}
+
+img {
+  margin-top: 10%;
+  width: 10%;
+  height: 10vh%;
+  border-radius: 10px;
+  
+}
+
+footer {
+  width: 99.5%;
+  border: 1px solid black;
+  height: 2vh;
+  position: absolute;
+  bottom: 0;
+  background-color: green;
+  text-align: center;
+  font-size: 3vw;
+}
+
+body {
+  background-color: with;
+}
